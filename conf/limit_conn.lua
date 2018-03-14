@@ -1,5 +1,5 @@
 -- 限制单IP连接并发数
--- utils/limit_conn.lua
+-- conf/limit_conn.lua
 local limit_conn = require "resty.limit.conn"
 
 print("测试输出成功2------------------")
